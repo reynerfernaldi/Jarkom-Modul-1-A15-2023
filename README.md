@@ -47,9 +47,17 @@
 ## 3.Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 
 ### a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+- Kueri untuk memfilternya adalah 
+`ip.src == 239.255.255.250 || ip.dst == 239.255.255.250 && udp.port == 3702`
+![Alt text](img/3.png?raw=true "1a")
+- Terdapat 21 paket
+
 ### b. Protokol layer transport apa yang digunakan?
+- Protokol yang digunakan adalah User Datagram Protocol (UDP)
 
-
+## 4.Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+![Alt text](img/4.png?raw=true "1a")
+- Checksum yang didapat adalah 0x18e5
 ## 5. Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
 
 - Buka file ```soal5.pcap```
@@ -57,7 +65,7 @@
 - Menemukan e-mail yang menarik. Kami menemukan email yang berisi password zip file. Ketika didecode dengan base64, maka menghasilkan password 5implePas5word
 ### a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
 
-- Nomor paling besar adalah 56, sehingga ada 56 paket yang berhasil tercapture
+- Terdapat 56 paket yang berhasil tercapture
 
 ### b. Port berapakah pada server yang digunakan untuk service SMTP?
 
@@ -67,11 +75,15 @@
 
 - Yang merupakan ip public adalah 74.53.140.153
 
+## 6. 
+
+
 ## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
 ![Alt text](img/7.png?raw=true "1a")
 - Terdapat 7 paket yang menuju IP 184.87.193.88
 
 ## 8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+- Kuerinya adalah tcp.dstport == 80 || udp.dstport == 80
 
 ## 9.Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
@@ -80,8 +92,8 @@
 
 
 ## 10.Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
-
-
+![Alt text](img/10.png?raw=true "1a")
+- kredensialnya adalah dhafin:kesayangannyak0k0
 
 
 
