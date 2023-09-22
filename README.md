@@ -75,7 +75,16 @@
 
 - Yang merupakan ip public adalah 74.53.140.153
 
-## 6. 
+## 6. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+- Didapatkan tulisan SUBSTITUSI SOURCE ADDRESS 7812 kemudian melihat bagian source
+  ![image](https://github.com/reynerfernaldi/Jarkom-Modul-1-A15-2023/assets/90272678/d01d8fb4-26d4-46f9-85ea-6926311ba943)
+- Didapatkan 108.18.14.101
+- 10 8 18 14 10 1 sebagai bahan dekripsi
+- a1 e5 u21. sebagai dasar cipher nya
+- Kemudian didapatkan JRNJA
+![image](https://github.com/reynerfernaldi/Jarkom-Modul-1-A15-2023/assets/90272678/1595a8a0-a11b-4584-b1fb-851ebb8d7c12)
+
 
 
 ## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
