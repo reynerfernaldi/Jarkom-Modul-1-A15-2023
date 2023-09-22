@@ -82,7 +82,7 @@
 - Didapatkan 108.18.14.101
 - 10 8 18 14 10 1 sebagai bahan dekripsi
 - a1 e5 u21. sebagai dasar cipher nya
-- Kemudian didapatkan JRNJA
+- Kemudian didapatkan JDRNJA
 ![image](https://github.com/reynerfernaldi/Jarkom-Modul-1-A15-2023/assets/90272678/1595a8a0-a11b-4584-b1fb-851ebb8d7c12)
 
 
