@@ -65,7 +65,7 @@
 - Menemukan e-mail yang menarik. Kami menemukan email yang berisi password zip file. Ketika didecode dengan base64, maka menghasilkan password 5implePas5word
 ### a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
 
-- Terdapat 56 paket yang berhasil tercapture
+- Terdapat 60 paket yang berhasil tercapture
 
 ### b. Port berapakah pada server yang digunakan untuk service SMTP?
 
@@ -89,7 +89,7 @@
 
 ## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
 ![Alt text](img/7.png?raw=true "1a")
-- Terdapat 7 paket yang menuju IP 184.87.193.88
+- Terdapat 6 paket yang menuju IP 184.87.193.88
 
 ## 8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 - Kuerinya adalah tcp.dstport == 80 || udp.dstport == 80
